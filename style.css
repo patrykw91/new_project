@@ -10,3 +10,23 @@
     border-right: 50px solid red;
     box-sizing: content-box;
 }
+
+p:nth-child(4) {
+    margin-top: 2rem;
+}
+
+.col-sm {
+    background-color: lightgray;
+}
+
+@media screen and (max-width:575px) {
+    .col-sm:first-child {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .col-sm {
+        margin-top: 3rem;
+    }
+}
