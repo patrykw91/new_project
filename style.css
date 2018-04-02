@@ -1,5 +1,12 @@
-img {
+.image1 {
     max-width: 100px;
     padding-left: 30px;
     border-right: 50px solid red;
+}
+
+.image2 {
+    max-width: 100px;
+    padding-left: 30px;
+    border-right: 50px solid red;
+    box-sizing: content-box;
 }
